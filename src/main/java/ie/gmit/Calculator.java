@@ -1,3 +1,6 @@
+//Brian Williams
+//Adds numbers
+
 package ie.gmit;
 
 public class Calculator {
