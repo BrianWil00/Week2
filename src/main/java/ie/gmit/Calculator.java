@@ -5,17 +5,17 @@
 package ie.gmit;
 
 public class Calculator {
-    int firstNum;
-    int secondNum;
-
-    public Calculator(int firstNum, int secondNum) {
-        this.firstNum = firstNum;
-        this.secondNum = secondNum;
+    public Calculator() {
     }
 
-    public int add()
+    public int add(int firstNum, int secondNum)
     {
         int total = firstNum + secondNum;
         return total;
+    }
+
+    public int subtract(int firstNum, int secondNum) {
+        int result = firstNum - secondNum;
+        return result;
     }
 }
